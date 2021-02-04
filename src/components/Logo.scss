@@ -1,10 +1,12 @@
+@import "../styles/main";
+
 .logo {
   display: flex;
   p {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 900;
     letter-spacing: 1px;
-    color: #2e1e5c;
+    color: $primary-color;
     span {
       font-weight: 300;
     }
