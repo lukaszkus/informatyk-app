@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 
-import Navigation from './components/Navigation'
-import Header from './components/Header'
-import Why from './components/Why'
-import HowItWorks from './components/HowItWorks'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
-import Dropdown from './components/Dropdown'
+import Navigation from './components/Navigation/Navigation'
+import Header from './components/Header/Header'
+import Why from './components/Why/Why'
+import HowItWorks from './components/HowItWorks/HowItWorks'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
+import Dropdown from './components/Navigation/Dropdown'
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)

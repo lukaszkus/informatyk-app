@@ -1,7 +1,8 @@
-@import "../styles/main";
+@import "../../styles/main";
 
 .logo {
   display: flex;
+  cursor: pointer;
   p {
     font-size: 1.125rem;
     font-weight: 900;

@@ -20,7 +20,7 @@ export default function Navigation({ toggle }) {
                 to="header"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-80}
                 duration={500}
               >
                 Home
@@ -32,7 +32,7 @@ export default function Navigation({ toggle }) {
                 to="why"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-80}
                 duration={500}
               >
                 Dlaczego warto?
@@ -44,7 +44,7 @@ export default function Navigation({ toggle }) {
                 to="howItWorks"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-80}
                 duration={500}
               >
                 Jak to działa
@@ -56,7 +56,7 @@ export default function Navigation({ toggle }) {
                 to="contact"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-80}
                 duration={500}
               >
                 Kontakt
