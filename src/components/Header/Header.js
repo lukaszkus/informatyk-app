@@ -15,13 +15,12 @@ export default function Header() {
             lub aplikację
             i nie wiesz gdzie
             szukać pomocy?
-                            </h1>
+            </h1>
             <ul>
               <li>Skorzystaj ze wsparcia sprawdzonych profesjonalistów IT.</li>
               <li>Określ, w jakich terminach i godzinach potrzebujesz wsparcia przy realizacji projektu.</li>
             </ul>
             <div className="header-cta">
-              {/* <a href="#qqq">Dowiedz się jak to działa</a> */}
               <Link
                 to="howItWorks"
                 spy={true}
