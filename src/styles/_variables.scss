@@ -1,7 +1,8 @@
 /* Solid colors */
 $primary-color: #2e1e5c;
+$primary-color-light: lighten(#2e1e5c, 55%);
 $accent-color: #f73c4f;
 $light-color: #fff;
 
 /* Gradients */
-$primary-gradient: linear-gradient(to right, #f73c4f 0%, #2e1e5c 100%);
+$primary-gradient: linear-gradient(to right, $accent-color 0%, $primary-color 100%);
