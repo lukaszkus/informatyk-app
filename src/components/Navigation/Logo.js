@@ -5,13 +5,13 @@ import './Logo.scss'
 
 export default function Logo() {
 
-    const scrollToTop = () => {
-        scroll.scrollToTop();
-      };
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
 
-    return (
-        <div className="logo" onClick={scrollToTop}>
-            <p>Informatyknagodziny<span>.pl</span></p>
-        </div>
-    )
+  return (
+    <div className="logo" onClick={scrollToTop}>
+      <p>Informatyknagodziny<span>.pl</span></p>
+    </div>
+  )
 }

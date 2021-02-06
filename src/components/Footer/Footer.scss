@@ -1,0 +1,27 @@
+@import "../../styles/main";
+
+.footer-wrapper {
+    background-color: $primary-color;
+    .container {
+        .footer {
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            .logo {
+              display: flex;
+              cursor: pointer;
+              margin-bottom: 40px;
+              p {
+                font-size: 0.875rem;
+                font-weight: 700;
+                letter-spacing: 1px;
+                color: $light-color;
+                span {
+                  font-weight: 300;
+                }
+              }
+            }
+        }
+    }
+}
