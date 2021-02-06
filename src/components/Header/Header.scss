@@ -52,13 +52,14 @@
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   .header-wrapper {
     .container {
       .header {
         display: flex;
         justify-content: space-between;
         margin-bottom: 40px;
+        padding: 60px 0;
         .header-heading {
           width: 45%;
           h1 {
