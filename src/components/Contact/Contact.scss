@@ -2,6 +2,72 @@
 
 .contact-wrapper {
   background-color: #f2f2f2;
-  height: 100vh;
-  width: 100%;
+  .container {
+    .contact {
+      padding: 40px 0;
+      .contact-col {
+        h2 {
+          color: $primary-color;
+          font-size: 1.5rem;
+          font-weight: 900;
+          padding-bottom: 25px;
+        }
+        p {
+          color: $primary-color;
+          font-size: 0.875rem;
+          line-height: 1.5;
+          padding-bottom: 10px;
+          &:last-child {
+            padding-bottom: 0;
+          }
+        }
+      }
+      .contact-img {
+        display: flex;
+        justify-content: center;
+        background-image: url(../../images/cloud-l.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 40px 0;
+        img {
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact-wrapper {
+    .container {
+      .contact {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+        .contact-col {
+          width: 45%;
+          h2 {
+            font-size: 2rem;
+            padding-bottom: 25px;
+          }
+          p {
+            font-size: 1rem;
+          }
+        }
+        .contact-img {
+          width: 45%;
+          background-image: url(../../images/cloud-l.svg);
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          padding: 40px 0;
+          img {
+            height: 300px;
+          }
+        }
+      }
+    }
+  }
 }
