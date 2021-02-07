@@ -71,3 +71,47 @@
     }
   }
 }
+
+
+/* Smartphone svg animation */
+
+.smartphone {
+  // width: 100%;
+  // height: 100%;
+
+  #device {
+    animation: phone 1s ease-in forwards;
+  }
+
+  @keyframes phone {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  #hello {
+    opacity: 0;
+    animation: cloud 0.3s 2s ease-in forwards;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  @keyframes cloud {
+    from {
+      opacity: 0;
+      transform: scaleX(0);
+    }
+    50% {
+      opacity: 1;
+      transform: scaleX(1.2);
+    }
+    to {
+      opacity: 1;
+      transform: scaleX(1);
+    }
+  }
+}
+

@@ -1,8 +1,7 @@
 import React from 'react'
 import './Contact.scss'
 
-// import { ReactComponent as Smartphone } from '../../images/smartphone.svg'
-import smartphone from '../../images/smartphone.png'
+import { ReactComponent as Smartphone } from '../../images/smartphone.svg'
 
 export default function Contact() {
   return (
@@ -18,8 +17,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="contact-img">
-            {/* <Smartphone className="smartphone" alt="Smartphone" /> */}
-            <img src={smartphone} alt="Smartphone" />
+            <Smartphone className="smartphone" alt="Smartphone" />
           </div>
         </div>
       </div>

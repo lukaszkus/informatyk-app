@@ -17,8 +17,9 @@ export default function HowItWorks() {
             <div className="hiw-row">
               <div className="hiw-desc">
                 <span className="hiw-number">1</span>
-                <h3>Wybierz ofertę</h3>
-                <p>Wybierz specjalistę, dobierz wygodną formę współpracy i dokonaj płatności (30% przed wykonaniem zlecenia i 70% po dostarczeniu pracy).</p>
+                <h3>Wybierz obszar wsparcia</h3>
+                <p>Wybierz obszar, w którym potrzebujesz wsparcia i określ ramy czasowe, kiedy zadanie ma być zrealizowane.
+                  Dodaj inne kryteria, które są dla Ciebie istotne.</p>
               </div>
               <div className="hiw-img">
                 <img src={list} alt="list" />
@@ -27,10 +28,9 @@ export default function HowItWorks() {
             <div className="hiw-row">
               <div className="hiw-desc">
                 <span className="hiw-number">2</span>
-                <h3>Odbierz maila</h3>
-                <p>Jeżeli wybrałeś połączenie wideo, sprawdź skrzynkę mailową,
-              dostaniesz zaproszenie do rozmowy w formie linku, żeby porozmawiać o swoim projekcie.<br /><br />
-              Jeżeli wybrałeś rozmowę telefoniczną, oczekuj na kontakt ze strony eksperta.</p>
+                <h3>Wybierz Specjalistę</h3>
+                <p>System automatycznie wskaże Ci ekspertów, którzy pomogą Ci w realizacji zadania.
+                  Pisz z nimi w czacie na żywo i nawiąż współpracę z osobą, która najbardziej Ci odpowiada.</p>
               </div>
               <div className="hiw-img">
                 <img src={mail} alt="mail" />
@@ -39,8 +39,9 @@ export default function HowItWorks() {
             <div className="hiw-row">
               <div className="hiw-desc">
                 <span className="hiw-number">3</span>
-                <h3>Opisz oczekiwania</h3>
-                <p>Przedstaw fachowcowi swoje wymagania i ustalcie szczegóły współpracy.</p>
+                <h3>Zatwierdź zamówienie i oceń je po realizacji</h3>
+                <p>Przedstaw fachowcowi swoje wymagania i ustalcie szczegóły współpracy.
+                Po wykonanym zleceniu wystaw ocenę.</p>
               </div>
               <div className="hiw-img">
                 <img src={hands} alt="hands" />

@@ -10,13 +10,10 @@ export default function Header() {
       <div className="container">
         <div className="header">
           <div className="header-heading">
-            <h1>Potrzebujesz stworzyć
-            stronę internetową
-            lub aplikację
-            i nie wiesz gdzie
-            szukać pomocy?
+            <h1>Wygodne, szybkie i profesjonalne usługi Informatyków na godziny bez wychodzenia z domu.
             </h1>
             <ul>
+              <li>Pierwszy portal dedykowany w 100% szybkim usługom informatycznym dla każdego.</li>
               <li>Skorzystaj ze wsparcia sprawdzonych profesjonalistów IT.</li>
               <li>Określ, w jakich terminach i godzinach potrzebujesz wsparcia przy realizacji projektu.</li>
             </ul>

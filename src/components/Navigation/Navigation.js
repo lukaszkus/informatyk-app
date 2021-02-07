@@ -15,7 +15,7 @@ export default function Navigation({ toggle }) {
           <Logo />
           <ul className="nav-items">
             <li className="nav-item">
-              <Link
+              {/* <Link
                 activeClass="active"
                 to="header"
                 spy={true}
@@ -24,7 +24,7 @@ export default function Navigation({ toggle }) {
                 duration={500}
               >
                 Home
-              </Link>
+              </Link> */}
             </li>
             <li className="nav-item">
               <Link
@@ -47,7 +47,7 @@ export default function Navigation({ toggle }) {
                 offset={-80}
                 duration={500}
               >
-                Jak to działa
+                Jak to działa?
               </Link>
             </li>
             <li className="nav-item">
