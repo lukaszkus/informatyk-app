@@ -1,9 +1,7 @@
 import React from 'react'
+import { FiList, FiUsers, FiCheckCircle } from 'react-icons/fi'
 
 import './HowItWorks.scss'
-import list from '../../images/list.svg'
-import mail from '../../images/mail.svg'
-import hands from '../../images/hands.svg'
 
 export default function HowItWorks() {
   return (
@@ -21,8 +19,8 @@ export default function HowItWorks() {
                 <p>Wybierz obszar, w którym potrzebujesz wsparcia i określ ramy czasowe, kiedy zadanie ma być zrealizowane.
                   Dodaj inne kryteria, które są dla Ciebie istotne.</p>
               </div>
-              <div className="hiw-img">
-                <img src={list} alt="list" />
+              <div className="hiw-ico">
+                <FiList/>
               </div>
             </div>
             <div className="hiw-row">
@@ -32,8 +30,8 @@ export default function HowItWorks() {
                 <p>System automatycznie wskaże Ci ekspertów, którzy pomogą Ci w realizacji zadania.
                   Pisz z nimi w czacie na żywo i nawiąż współpracę z osobą, która najbardziej Ci odpowiada.</p>
               </div>
-              <div className="hiw-img">
-                <img src={mail} alt="mail" />
+              <div className="hiw-ico">
+                <FiUsers/>
               </div>
             </div>
             <div className="hiw-row">
@@ -43,8 +41,8 @@ export default function HowItWorks() {
                 <p>Przedstaw fachowcowi swoje wymagania i ustalcie szczegóły współpracy.
                 Po wykonanym zleceniu wystaw ocenę.</p>
               </div>
-              <div className="hiw-img">
-                <img src={hands} alt="hands" />
+              <div className="hiw-ico">
+                <FiCheckCircle/>
               </div>
             </div>
           </div>
