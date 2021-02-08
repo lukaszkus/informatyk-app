@@ -1,0 +1,30 @@
+@import "../../styles/main";
+
+.scrollTop-btn {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 28px;
+  color: $primary-color;
+  background: $light-color;
+  padding: 10px 10px 5px 10px;
+  animation: fadeIn 700ms ease-in-out 0.2s both;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .scrollTop-btn {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    font-size: 36px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

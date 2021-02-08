@@ -7,6 +7,7 @@ import HowItWorks from '../components/HowItWorks/HowItWorks'
 import Contact from '../components/Contact/Contact'
 import Footer from '../components/Footer/Footer'
 import Dropdown from '../components/Navigation/Dropdown'
+import ScrollTopBtn from '../components/Navigation/ScrollTopBtn'
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false)
@@ -24,6 +25,7 @@ function Home() {
       <HowItWorks />
       <Contact />
       <Footer />
+      <ScrollTopBtn/>
     </>
   );
 }
