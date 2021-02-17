@@ -17,7 +17,7 @@ export default function Footer() {
         <div className="footer">
           <div className="contact">
             <h3>Masz pytanie? Napisz do nas!</h3>
-            <div className="mail"><span><FiMail/></span><p> info@informatyknagodziny.pl</p></div>
+            <div className="mail"><span><FiMail/></span><p> info@informatyknagodziny.eu</p></div>
           </div>
           <div className="logo" onClick={scrollToTop}>
             <p>informatyknagodziny<span>.eu</span></p>
