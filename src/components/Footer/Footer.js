@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer">
           <div className="logo" onClick={scrollToTop}>
-            <p>Informatyknagodziny<span>.pl</span></p>
+            <p>informatyknagodziny<span>.eu</span></p>
           </div>
         </div>
       </div>

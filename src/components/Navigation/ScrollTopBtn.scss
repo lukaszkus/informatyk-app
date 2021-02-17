@@ -10,6 +10,10 @@
   padding: 10px 10px 5px 10px;
   animation: fadeIn 700ms ease-in-out 0.2s both;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    transform: translateY(-10px);
+  }
 }
 
 @media screen and (min-width: 768px) {

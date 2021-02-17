@@ -11,7 +11,7 @@ export default function Logo() {
 
   return (
     <div className="logo" onClick={scrollToTop}>
-      <p>Informatyknagodziny<span>.pl</span></p>
+      <p>informatyknagodziny<span>.eu</span></p>
     </div>
   )
 }
