@@ -1,27 +1,79 @@
 @import "../../styles/main";
 
 .footer-wrapper {
-    background-color: $primary-color;
+  background-color: $primary-color;
+  .container {
+    .footer {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .contact {
+        color: white;
+        text-align: center;
+        padding: 50px 0;
+        h3 {
+          font-size: 1.5rem;
+        }
+        .mail {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 20px 0;
+          span {
+            font-size: 24px;
+            padding-right: 10px;
+          }
+          p {
+            font-size: 1rem;
+          }
+        }
+      }
+      .logo {
+        display: flex;
+        cursor: pointer;
+        margin-bottom: 40px;
+        p {
+          font-size: 0.875rem;
+          font-weight: 700;
+          letter-spacing: 1px;
+          color: $light-color;
+          span {
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-wrapper {
     .container {
-        .footer {
-            height: 300px;
+      .footer {
+        padding: 40px 0;
+        .contact {
+          padding: 50px 0;
+          h3 {
+            font-size: 2rem;
+          }
+          .mail {
             display: flex;
             justify-content: center;
-            align-items: flex-end;
-            .logo {
-              display: flex;
-              cursor: pointer;
-              margin-bottom: 40px;
-              p {
-                font-size: 0.875rem;
-                font-weight: 700;
-                letter-spacing: 1px;
-                color: $light-color;
-                span {
-                  font-weight: 300;
-                }
-              }
+            align-items: center;
+            padding: 20px 0;
+            span {
+              font-size: 24px;
+              padding-right: 10px;
             }
+            p {
+              font-size: 1.2rem;
+            }
+          }
         }
+      }
     }
+  }
 }

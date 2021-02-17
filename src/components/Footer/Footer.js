@@ -1,4 +1,6 @@
 import React from 'react'
+import { FiMail } from 'react-icons/fi'
+
 import './Footer.scss'
 
 import { animateScroll as scroll } from "react-scroll"
@@ -13,6 +15,10 @@ export default function Footer() {
     <footer id="footer" className="footer-wrapper">
       <div className="container">
         <div className="footer">
+          <div className="contact">
+            <h3>Masz pytanie? Napisz do nas!</h3>
+            <div className="mail"><span><FiMail/></span><p> info@informatyknagodziny.pl</p></div>
+          </div>
           <div className="logo" onClick={scrollToTop}>
             <p>informatyknagodziny<span>.eu</span></p>
           </div>
