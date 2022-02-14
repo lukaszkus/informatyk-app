@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 import { Link } from "react-scroll";
-import './Header.scss'
+import "./Header.scss";
 
-import { ReactComponent as Janush } from '../../images/janush.svg'
+import { ReactComponent as Janush } from "../../images/janush.svg";
 
 export default function Header() {
   return (
@@ -10,12 +10,20 @@ export default function Header() {
       <div className="container">
         <div className="header">
           <div className="header-heading">
-            <h1>Wygodne, szybkie i profesjonalne usługi Informatyków na godziny bez wychodzenia z domu.
+            <h1>
+              Wygodne, szybkie i profesjonalne usługi Informatyków na godziny
+              bez wychodzenia z domu.
             </h1>
             <ul>
-              <li>Pierwszy portal dedykowany w 100% szybkim usługom informatycznym dla każdego.</li>
+              <li>
+                Pierwszy portal dedykowany w 100% szybkim usługom informatycznym
+                dla każdego.
+              </li>
               <li>Skorzystaj ze wsparcia sprawdzonych profesjonalistów IT.</li>
-              <li>Określ, w jakich terminach i godzinach potrzebujesz wsparcia przy realizacji projektu.</li>
+              <li>
+                Określ, w jakich terminach i godzinach potrzebujesz wsparcia
+                przy realizacji projektu.
+              </li>
             </ul>
             <div className="header-cta">
               <Link
@@ -23,8 +31,7 @@ export default function Header() {
                 spy={true}
                 smooth={true}
                 offset={-80}
-                duration={500}
-              >
+                duration={500}>
                 Dowiedz się jak to działa
               </Link>
             </div>
@@ -35,5 +42,5 @@ export default function Header() {
         </div>
       </div>
     </header>
-  )
+  );
 }
