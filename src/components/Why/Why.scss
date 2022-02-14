@@ -4,7 +4,7 @@
   background-color: #f2f2f2;
   .container {
     .why {
-      padding: 40px 0;
+      padding: 65px 0;
       .why-cols {
         .why-col-1 {
           h2 {
@@ -60,10 +60,11 @@
   .why-wrapper {
     .container {
       .why {
+        padding: 100px 0;
         .why-cols {
           display: flex;
           justify-content: space-between;
-          .why-col-1{
+          .why-col-1 {
             width: 45%;
             h2 {
               color: $primary-color;
@@ -78,7 +79,7 @@
               padding: 0;
             }
           }
-          .why-col-2{
+          .why-col-2 {
             width: 45%;
             h3 {
               font-size: 1.5rem;

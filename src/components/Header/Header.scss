@@ -3,7 +3,7 @@
 .header-wrapper {
   .container {
     .header {
-      padding: 40px 0;
+      padding: 65px 0;
       .header-heading {
         h1 {
           color: $primary-color;
@@ -16,6 +16,8 @@
           font-size: 0.875rem;
           line-height: 1.5;
           padding: 25px 0;
+          margin-bottom: 20px;
+
           li {
             margin-bottom: 10px;
             &:nth-child(3) {
@@ -26,7 +28,7 @@
         .header-cta {
           width: 100%;
           text-align: center;
-          margin-bottom: 20px;
+          margin-bottom: 50px;
           a {
             padding: 20px 15px;
             background-color: $accent-color;
@@ -60,7 +62,7 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 40px;
-        padding: 60px 0;
+        padding: 100px 0;
         .header-heading {
           width: 45%;
           h1 {

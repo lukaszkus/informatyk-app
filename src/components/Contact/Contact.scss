@@ -4,8 +4,9 @@
   background-color: #f2f2f2;
   .container {
     .contact {
-      padding: 40px 0;
+      padding: 65px 0;
       .contact-col {
+        margin-bottom: 50px;
         h2 {
           color: $primary-color;
           font-size: 1.5rem;
@@ -46,6 +47,7 @@
         justify-content: space-between;
         flex-direction: row-reverse;
         align-items: center;
+        padding: 100px 0;
         .contact-col {
           width: 45%;
           h2 {
@@ -71,7 +73,6 @@
     }
   }
 }
-
 
 /* Smartphone svg animation */
 
@@ -114,4 +115,3 @@
     }
   }
 }
-
