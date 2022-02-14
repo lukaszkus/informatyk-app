@@ -15,7 +15,7 @@ export default function Why() {
       <div className="container">
         <div className="why">
           <div className="why-cols">
-            <div className="why-col-1" data-aos="fade-right">
+            <div className="why-col-1" data-aos="zoom-in-up">
               <h2>Dlaczego warto?</h2>
               <ul>
                 <li>Potrzebujesz stworzyć stronę internetową lub aplikację?</li>
@@ -36,7 +36,7 @@ export default function Why() {
                 <img src={form} alt="coś" />
               </div>
             </div>
-            <div className="why-col-2" data-aos="fade-left">
+            <div className="why-col-2" data-aos="zoom-in-up">
               <h3>Czas na skorzystanie z profesjonalnego wsparcia</h3>
               <ul>
                 <li>Wybierz na realizacji jakiej usługi Ci zależy.</li>

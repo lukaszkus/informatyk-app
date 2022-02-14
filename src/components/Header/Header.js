@@ -16,12 +16,12 @@ export default function Header() {
     <header id="header" className="header-wrapper">
       <div className="container">
         <div className="header">
-          <div className="header-heading">
-            <h1 data-aos="fade-right">
+          <div className="header-heading" data-aos="zoom-in-up">
+            <h1>
               Wygodne, szybkie i profesjonalne usługi Informatyków na godziny
               bez wychodzenia z domu.
             </h1>
-            <ul data-aos="fade-right">
+            <ul>
               <li>
                 Pierwszy portal dedykowany w 100% szybkim usługom informatycznym
                 dla każdego.
@@ -32,7 +32,7 @@ export default function Header() {
                 przy realizacji projektu.
               </li>
             </ul>
-            <div className="header-cta" data-aos="fade-right">
+            <div className="header-cta">
               <Link
                 to="howItWorks"
                 spy={true}
@@ -43,7 +43,7 @@ export default function Header() {
               </Link>
             </div>
           </div>
-          <div className="header-image" data-aos="fade-left">
+          <div className="header-image" data-aos="zoom-in-up">
             <Janush className="janush" alt="Janush the programmer" />
           </div>
         </div>

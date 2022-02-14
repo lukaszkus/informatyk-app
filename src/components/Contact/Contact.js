@@ -15,8 +15,8 @@ export default function Contact() {
     <section id="contact" className="contact-wrapper">
       <div className="container">
         <div className="contact">
-          <div className="contact-col">
-            <div className="contact-title" data-aos="fade-left">
+          <div className="contact-col" data-aos="zoom-in-up">
+            <div className="contact-title">
               <h2>Ekspert zawsze pod ręką</h2>
               <p>
                 Wystarczy smartfon lub komputer żeby połączyć się z naszymi
@@ -29,7 +29,7 @@ export default function Contact() {
               </p>
             </div>
           </div>
-          <div className="contact-img" data-aos="fade-right">
+          <div className="contact-img" data-aos="zoom-in-up">
             <Smartphone className="smartphone" alt="Smartphone" />
           </div>
         </div>
